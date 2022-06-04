@@ -33,6 +33,7 @@ public class Main
 
             //create window for user to interact with
             GUI window = new GUI(sequencer, sequence);
+            window.text.getText();
         }
         catch (Exception e)
         {
@@ -49,7 +50,7 @@ public class Main
         private JButton playButton;
         private JButton stopButton;
         private JButton pauseButton;
-        private JComboBox selectSong;
+        private JComboBox<String> selectSong;
         private Sequence songSequence;
 
         public GUI(Sequencer sequencer, Sequence sequence)
@@ -60,7 +61,7 @@ public class Main
             //list of available songs in folder to be displayed in the drop down
             String listOfSongs[] = {"Chopin_Nocturne9-2", "Canon_in_D", "Fr_Elise", "Maple-Leaf-Rag", "Sonate_No_14", "Clair_de_Lune"};
             //drop down menu of song names
-            this.selectSong = new JComboBox(listOfSongs);
+            this.selectSong = new JComboBox<String>(listOfSongs);
             this.selectSong.addItemListener(new ItemListener()
             {
                 public void itemStateChanged(ItemEvent e)
