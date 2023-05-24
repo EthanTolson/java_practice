@@ -8,9 +8,6 @@ My main purpose was to go practice OOP in Java and to learn the syntax of the la
 
 I wanted to learn Java and decided to do something with music. I originally planned to take the notes from the midi files and do something with them but decided to make a simple music player instead.
 
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running and a walkthrough of the code.  Focus should be on sharing what you learned about the language syntax.}
-
 [Software Demo Video](https://youtu.be/_BShSUSKH0w)
 
 # Development Environment
